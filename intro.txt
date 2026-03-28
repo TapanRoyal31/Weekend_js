@@ -1,0 +1,52 @@
+Industry :-
+        Web Development
+        AI / ML
+        Game Development
+        Backend
+        App Development
+
+Framework and Library :-
+        Framewrok :- Development rules and regulation are most important        
+        Library :- Relax in rules and regulations
+
+Library :- React js, jQuery
+Framework :- Angular js, next js
+
+JS History :-
+        Brendan Eich 
+        1995
+        Netscape  Company (Breden Eich)
+        10 - 15 Days
+        Clientside Interaction (Starting Face)
+        ServerSide (2009 Node js)
+
+Java v/s JavaScript :-
+        Marketing :- Netscape (Java inspired)
+        
+
+JS Use Runtime Environment :- 
+        Chrome (V8 Engine)
+        safari (JavaScriptCore)
+        ms Edge (chakra)
+        Mozilla Firefox (SpiderMonkey)
+
+Local Machine :- node js
+
+https://nodejs.org/en/download
+
+<--------------------------------------------------------------------------------->
+
+DataTypes :-
+------------
+        c :- int,char,float,double,boolean
+
+        js(typeof) :- number,string,boolean,array,object,function
+
+
+dom and bom :-
+-------------
+        dom :- document object model
+        bom :- browser object model
+<--------------------------------------------------------------------------------->
+
+
