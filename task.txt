@@ -1,0 +1,5 @@
+//------------------------------- 28 marc 2026 -----------------------------------------------
+/*
+    1)  c language type of variables
+    2)  Find minimul bugs in js and why?
+*/
