@@ -52,3 +52,31 @@
 // console.log(a === b);
 
 
+// -----------------------------------------------------------------------
+
+// Ternary Operator :-
+
+// let a = 13;
+
+// Condition ? true : false
+// console.log(a == 12 ? 'a is 12' : 'a is not 12');
+
+
+// if (!(a > 0 || a == 12)) {
+    
+//     console.log('a is positive 12');
+// } else {
+//     console.log('a is not 12');
+    
+// }
+
+// ------------------------------------------------------------------------
+
+// console.log(3 > 2 > 1); // true > 1 
+// console.log(3 > 2 > 0); // true > 0
+
+
+// console.log('3' + 2); 
+// console.log('3' - 2);  
+
+

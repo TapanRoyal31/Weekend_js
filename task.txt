@@ -1,5 +1,48 @@
-//------------------------------- 28 marc 2026 -----------------------------------------------
-/*
+//------------------------------- 28 march 2026 -----------------------------------------------
+
     1)  c language type of variables
     2)  Find minimul bugs in js and why?
-*/
+
+
+//-------------------------------- 04 April 2026 ---------------------------------------------
+
+✅ Reverse a string
+Input: "hello"
+Output: "olleh"
+
+✅ Remove spaces
+Input: "hello world"
+Output: "hello_world"
+
+//----------------------------------- 05 April 2026 -------------------------------------------
+
+Task 1: Pattern (Right Triangle)
+    Expected:
+    *
+    **
+    ***
+    ****
+    *****
+
+🔥 Task 2: Reverse Number
+    Input: 12345
+    Expected Output: 54321
+
+🔥 Task 3: Palindrome Number
+    Input: 121
+    Expected Output: Palindrome
+
+    Input: 123
+    Expected Output: Not Palindrome
+
+🔥 Task 4: Factorial
+    Input: 5
+    Expected Output: 120
+
+🔥 Task 5: Fibonacci Series
+    Print first 10 numbers
+    Expected: 0 1 1 2 3 5 8 13 21 34
+
+🔥 Task 6: Count Digits
+    Input: 987654
+    Expected Output: 6
