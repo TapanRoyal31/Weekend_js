@@ -46,3 +46,16 @@ Task 1: Pattern (Right Triangle)
 🔥 Task 6: Count Digits
     Input: 987654
     Expected Output: 6
+
+//----------------------------------- 11 April 2026 -------------------------------------------
+🔹 Beginner Level
+Create a function that prints "Hello World".
+Create a function that takes a number and prints its square.
+Create a function that takes two numbers and returns their sum.
+Create a function that checks if a number is even or odd.
+Create a function that returns the largest of two numbers.
+🔹 Intermediate Level
+Create a function that takes a number and returns its factorial.
+Create a function that takes a string and returns it reversed.
+Create a function that counts the number of vowels in a string.
+Create a function that checks if a number is a prime number.
