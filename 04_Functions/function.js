@@ -67,3 +67,24 @@
 // }
 
 // add();
+
+// --------------------------------------------------------------------------------------
+
+// Create a function that counts the number of vowels in a string.
+
+
+let vowels = "aeiou"
+let count = 0;
+
+function findVowels(str){
+    for (let i = 0; i < str.length; i++) {
+        const element = str[i];
+        if (vowels.includes(element)) {
+            count++;
+        }
+    }
+
+    return count;
+}
+
+console.log("Count :",findVowels("Royal Technosoft"));
