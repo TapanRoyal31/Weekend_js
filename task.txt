@@ -1,4 +1,4 @@
-//------------------------------- 28 march 2026 -----------------------------------------------
+//------------------------------- 28 march 2026 ----------------------------------------------
 
     1)  c language type of variables
     2)  Find minimul bugs in js and why?
@@ -60,7 +60,7 @@ Create a function that takes a string and returns it reversed.
 Create a function that counts the number of vowels in a string.
 Create a function that checks if a number is a prime number.
 
-//---------------------------------- 12 April 2026 ---------------------------------------------
+//---------------------------------- 12 April 2026 --------------------------------------------
 
 Greeting Generator
 Create a function greet(message) that:
@@ -72,3 +72,28 @@ That function takes a name and prints: "message + name"
     const sayHello = greet("Hello");
     sayHello("Alex"); // Hello Alex
     sayHello("Sam");  // Hello Sam
+
+
+//---------------------------------- 12 April 2026 (callback) --------------------------------
+
+1. Basic Callback Execution
+
+Create a function executeCallback that:
+takes a callback function
+calls it
+
+👉 Example:
+executeCallback(() => console.log("Hello!"));
+
+2. Add with Callback
+
+Create a function add(a, b, callback) that:
+calculates sum
+passes result to callback
+
+👉 Expected:
+add(2, 3, result => console.log(result)); // 5
+
+3. Even or Odd Checker
+Write a function checkEvenOdd(num, callback):
+callback should receive "Even" or "Odd"
