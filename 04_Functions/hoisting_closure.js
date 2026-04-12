@@ -14,6 +14,7 @@
 
 // closure :- closure is a feature in JavaScript where an inner function has access to the outer (enclosing) function's variables and parameters, even after the outer function has returned.
 
+/*
 function outerFunction() {
     var outerVariable = 'I am from the outer function';
 
@@ -25,3 +26,39 @@ function outerFunction() {
 }
 
 outerFunction();
+*/
+
+/*
+Simple Counter
+Create a function createCounter() that:
+
+Returns a function
+Each time it's called, it increases and returns a count
+
+👉 Expected:
+const c = createCounter();
+
+c(); // 1
+c(); // 2
+c(); // 3
+
+💡 Hint: Use a variable inside the outer function
+*/
+
+
+function createCounter(){
+    var count = 0;
+    function Counter(){
+        count++;
+        console.log(count);
+        return count;
+    }
+
+    return Counter;
+}
+
+const c = createCounter();
+
+c();
+c();
+c();
