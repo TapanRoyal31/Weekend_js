@@ -95,5 +95,33 @@ passes result to callback
 add(2, 3, result => console.log(result)); // 5
 
 3. Even or Odd Checker
+
 Write a function checkEvenOdd(num, callback):
 callback should receive "Even" or "Odd"
+
+
+4. Custom Map Function
+
+Create your own version of map:
+customMap([1,2,3], callback)
+
+👉 Expected:
+customMap([1,2,3], x => x * 2); // [2,4,6]
+
+5. Filter with Callback
+
+Create customFilter(arr, callback):
+return filtered array based on condition
+
+👉 Example:
+customFilter([1,2,3,4], x => x > 2); // [3,4]
+
+6. Calculator with Callback
+
+Create a function:
+calculator(a, b, operationCallback)
+
+👉 Use different callbacks:
+add
+multiply
+subtract
