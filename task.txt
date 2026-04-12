@@ -59,3 +59,16 @@ Create a function that takes a number and returns its factorial.
 Create a function that takes a string and returns it reversed.
 Create a function that counts the number of vowels in a string.
 Create a function that checks if a number is a prime number.
+
+//---------------------------------- 12 April 2026 ---------------------------------------------
+
+Greeting Generator
+Create a function greet(message) that:
+Returns another function
+That function takes a name and prints: "message + name"
+
+👉 Example:
+------------    
+    const sayHello = greet("Hello");
+    sayHello("Alex"); // Hello Alex
+    sayHello("Sam");  // Hello Sam
