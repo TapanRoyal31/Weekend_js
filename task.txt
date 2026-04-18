@@ -176,3 +176,40 @@ User reads the oldest notification → remove it
 Urgent notification "urgent_msg" → add to the front
 
 👉 Final notifications list?
+
+// ------------------------------------------- slice / splice
+
+Task 1 — Smart Insert Without Mutation
+let arr = [10, 20, 30, 40];
+
+👉 Insert 25 between 20 and 30
+❗ Constraint: Do NOT use splice() (array must remain unchanged)
+
+Expected:
+
+[10, 20, 25, 30, 40]
+🔥 Task 2 — Remove All Occurrences
+let arr = [1, 2, 3, 2, 4, 2, 5];
+
+👉 Remove all 2s using splice() only (no filter)
+
+Expected:
+
+[1, 3, 4, 5]
+🔥 Task 3 — Swap Segments
+let arr = ["a", "b", "c", "d", "e", "f"];
+
+👉 Swap first 3 elements with last 3
+❗ Try using slice() (bonus if you avoid mutation)
+
+Expected:
+
+["d", "e", "f", "a", "b", "c"]
+🔥 Task 4 — Dynamic Middle Replace
+let arr = [1, 2, 3, 4, 5, 6];
+
+👉 Replace the middle two elements with "X", "Y" using splice()
+
+Expected:
+
+[1, 2, "X", "Y", 5, 6]
