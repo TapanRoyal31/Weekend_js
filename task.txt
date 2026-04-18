@@ -125,3 +125,54 @@ calculator(a, b, operationCallback)
 add
 multiply
 subtract
+
+//------------------------------------------------- 18 April 2026 ---------------------------------
+
+🔹 Task 1: Add and Remove (Basic)
+
+Start with:
+
+let fruits = ["apple", "banana"];
+Add "orange" to the end
+Remove the last item
+Add "mango" to the beginning
+Remove the first item
+
+👉 What does the final array look like?
+
+🔹 Task 2: Track Actions
+let actions = [];
+
+Perform these steps:
+
+Add "login"
+Add "view_page"
+Add "logout"
+Remove the last action
+Add "signup" at the beginning
+
+👉 What is the final array?
+
+🔹 Task 3: Build a Queue (FIFO)
+let queue = [];
+Add "A", "B", "C" (in that order)
+Remove one item from the front
+Add "D" to the end
+
+👉 What items remain in the queue?
+
+🔹 Task 4: Build a Stack (LIFO)
+let stack = [];
+Add 1, 2, 3
+Remove the last item
+Add 4
+
+👉 What does the stack contain?
+
+🔹 Task 5: Real-Life Scenario
+let notifications = ["msg1", "msg2"];
+New notification "msg3" arrives → add it
+User reads the oldest notification → remove it
+Urgent notification "urgent_msg" → add to the front
+
+👉 Final notifications list?
