@@ -262,3 +262,20 @@ const words = ["cat", "elephant", "dog", "tiger"];
 
 const values = [0, "hello", false, "", 42, null, "world"];
 👉 Remove all falsy values.
+
+4. Strings that start with "a"
+
+const words = ["apple", "banana", "avocado", "grape"];
+👉 Case-sensitive filter
+
+5. Remove empty strings
+
+const arr = ["hi", "", "hello", "", "world"];
+
+6. Numbers divisible by both 3 and 5
+const nums = [15, 20, 30, 7, 45];
+
+7. Filter by substring (case-insensitive)
+
+const names = ["Amit", "Riya", "Sam", "Ram"];
+👉 Search keyword: "am"
