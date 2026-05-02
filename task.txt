@@ -245,3 +245,20 @@ Return all pairs whose sum equals a target.
 
 Input: [2,4,3,5,7,8], target = 7  
 Output: [[2,5], [4,3]]
+
+//---------------------------------------------------- 02 April 2026 -----------------------------------------------------
+
+1. Get even numbers
+
+const nums = [1, 2, 3, 4, 5, 6];
+👉 Return only even numbers.
+
+2. Filter strings longer than 4 characters
+
+const words = ["cat", "elephant", "dog", "tiger"];
+👉 Keep words with length > 4.
+
+3. Remove falsy values
+
+const values = [0, "hello", false, "", 42, null, "world"];
+👉 Remove all falsy values.
