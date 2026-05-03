@@ -246,7 +246,7 @@ Return all pairs whose sum equals a target.
 Input: [2,4,3,5,7,8], target = 7  
 Output: [[2,5], [4,3]]
 
-//---------------------------------------------------- 02 April 2026 -----------------------------------------------------
+//---------------------------------------------------- 02 May 2026 -----------------------------------------------------
 
 1. Get even numbers
 
@@ -279,3 +279,44 @@ const nums = [15, 20, 30, 7, 45];
 
 const names = ["Amit", "Riya", "Sam", "Ram"];
 👉 Search keyword: "am"
+
+8. Remove duplicates using filter
+
+const nums = [1, 2, 2, 3, 4, 4, 5];
+
+// ------------------------------------------------------- 03 May 2026 ----------------------------------------------------
+
+1. Numbers Array
+const nums = [3, 6, 9, 12, 15];
+❓ Tasks
+    Find the first number divisible by 4
+    Check if all numbers are divisible by 3
+    Check if any number is greater than 10
+
+2. Strings Array
+const words = ["cat", "elephant", "dog", "tiger"];
+❓ Tasks
+    Find the first word with length greater than 5
+    Check if all words have length at least 3
+    Check if any word starts with 'd'
+
+3. Mixed Numbers
+const arr = [10, 25, 30, 45, 60];
+❓ Tasks
+    Find the first number greater than 20
+    Check if all numbers are multiples of 5
+    Check if any number is less than 15
+
+4. Characters Array
+const chars = ["a", "b", "E", "o", "U"];
+❓ Tasks
+    Find the first uppercase character
+    Check if all characters are lowercase
+    Check if any character is a vowel
+
+5. Challenge Set
+const data = [7, 14, 21, 28, 35];
+❓ Tasks
+    Find the first number greater than 20 and divisible by 7
+    Check if all numbers are divisible by 7
+    Check if any number is even

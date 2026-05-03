@@ -7,12 +7,12 @@
 // const fruits = ["apple", "banana", "apple", "orange", "banana"];
 
 // let obj1 = fruits.reduce((obj,fruit) => {
-//     obj[fruit] = (obj[fruit] || 0) + 1;  
+//     obj[fruit] = (obj[fruit] || 0) + 1;
 //     return obj;
 // },{})
 
 // console.log(obj1);
-// ------------------------------------------------------------------- 
+// -------------------------------------------------------------------
 
 // const arr = [[1, 2], [3, 4], [5]];
 

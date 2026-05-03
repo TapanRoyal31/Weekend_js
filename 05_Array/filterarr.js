@@ -10,3 +10,8 @@
 // let result = values.filter((value)=> value)
 
 // console.log(result);
+
+
+const nums = [1, 2, 2, 3, 4, 4, 5];
+
+nums.filter((value) =>  value)
