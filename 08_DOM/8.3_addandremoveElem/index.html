@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    let ele = document.createElement("h1");
+    ele.innerText = "Created New Element";
+    console.log(ele);
+    
+    document.body.appendChild(ele);
+
+    ele.style.background = "orangered"
+
+    document.body.removeChild(ele);
+</script>
+</html>
