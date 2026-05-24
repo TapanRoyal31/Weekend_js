@@ -6,9 +6,20 @@
     <title>Document</title>
 </head>
 <body>
-    <button>Click Me</button>
+    <!-- <button onclick="greeting()">on click</button> -->
+    <button id="button">Event Listner</button>
 </body>
 <script>
-    
+    // Events :- HTML Event => browser activity
+    // function greeting() {
+    //     alert('Hello good afternoon!!');
+    // } // onclick
+
+    let btn = document.getElementById('button');
+
+    btn.addEventListener('click',(e) => {
+        console.log(e);
+    })
+
 </script>
 </html>
