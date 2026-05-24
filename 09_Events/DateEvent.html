@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="button">Show Date</button>
+    <div id="date"></div>
+</body>
+<script>
+
+    let btn = document.getElementById('button');
+    let input = document.getElementById('date');
+
+    btn.addEventListener('click',() => {
+        let currentdate = new Date;
+        let value = currentdate.toDateString() // Sun May 24 2026
+        // let value = currentdate.toLocaleDateString() // Sun May 24 2026
+        // let value = currentdate.toISOString()
+
+        // input.innerText = currentdate; //Sun May 24 2026 14:28:42 GMT+0530 (India Standard Time)
+        input.innerText = value
+    })
+
+</script>
+</html>
