@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #212121;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      gap: 20px;
+    }
+    .box{
+        border: 2px solid red;
+        padding: 10px 20px;
+        border-radius: 10%;
+    }
+
+</style>
+<body>
+    <div class="box" id="red">Red</div>
+    <div class="box" id="blue">blue</div>
+    <div class="box" id="orangered">orangered</div>
+</body>
+<script>
+    let buttons = document.querySelectorAll('.box');
+
+    // btn.addEventListener('click',(e) =>{
+    //     console.log(e.target.id);
+        
+    // })
+
+    buttons.forEach(btn => {
+        btn.addEventListener('click',e => {
+            // console.log(e.target.id);
+            document.body.style.background = e.target.id;
+        })
+    })
+
+
+
+</script>
+</html>
