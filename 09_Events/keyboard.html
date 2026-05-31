@@ -1,17 +1,17 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<style>
+  </head>
+  <style>
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
     }
-    
+
     body {
       font-family: Arial, sans-serif;
       background-color: #212121;
@@ -21,14 +21,23 @@
       align-items: center;
       height: 100vh;
     }
-</style>
-<body>
+  </style>
+  <body>
+    <div id="output"></div>
+  </body>
+  <script>
+    let output = document.getElementById("output");
 
-</body>
-<script>
-     window.addEventListener('keydown',(e) =>
-     {
-        console.log(e);
-     })
-</script>
+    window.addEventListener("keydown", (e) => {
+      output.innerHTML = `
+        <table border='1' cellspacing='0' cellpadding='10' bgcolor="${e.keyCode >= 65 && e.keyCode <= 90 ? 'green' : 'red'}">
+          <tr>
+            <td>${e.key == " " ? "space" : e.key}</td>
+            <td>${e.keyCode}</td>
+            <td>${e.code}</td>
+          </tr>
+        </table>
+        `;
+    });
+  </script>
 </html>
