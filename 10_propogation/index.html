@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #212121;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    #outer {
+      height: 300px;
+      width: 300px;
+      border: 1px solid red;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #inner {
+      height: 200px;
+      width: 200px;
+      border: 1px solid blue;
+    }
+    #outermost {
+      height: 400px;
+      width: 400px;
+      border: 1px solid yellow;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+  <body>
+    <div id="outermost">
+      <div id="outer">
+        <div id="inner"></div>
+      </div>
+    </div>
+  </body>
+  <script>
+    // Propagation :- Event Propagation defines the order in which event handlers are triggered when an event occurs in the DOM.
+    // Capturing :- The event starts from the outermost element and moves down to the target element
+    // Bubbling :-The event starts from the target element and moves up to the outermost element
+    // stopPropagationv :- The stopPropagation() method of the Event interface prevents further propagation of the current event in the capturing and bubbling phases.
+
+    let outer = document.getElementById("outer");
+    let inner = document.getElementById("inner");
+    let om = document.getElementById("outermost");
+
+    om.addEventListener("click", () => {
+      console.log("Element ID : outermost");
+    });
+    outer.addEventListener(
+      "click",
+      (e) => {
+        console.log("Element ID : outer");
+        
+      },
+      false,
+    );
+    inner.addEventListener(
+      "click",
+      (e) => {
+        console.log("Element ID : inner");
+        e.stopPropagation();
+      },
+      true,
+    );
+  </script>
+</html>

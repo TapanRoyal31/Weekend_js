@@ -83,3 +83,48 @@ const person = {
 
 Extract: name
 Store remaining properties in another object.
+
+
+//-------------------------------------------- 06 june 2026 --------------------------------------------------------------
+
+Task 1: Identify the Propagation Order
+
+Create this HTML structure:
+
+<div id="grandparent">
+  Grandparent
+  <div id="parent">
+    Parent
+    <button id="child">Click Me</button>
+  </div>
+</div>
+
+Requirements
+  Add click listeners to all three elements.
+  Log the element name when clicked.
+  First test with default bubbling.
+  Then add capturing listeners ({ capture: true }).
+  Predict the output before running.
+  Expected Learning
+  Capturing phase
+  Target phase
+  Bubbling phase
+
+Task 2: Stop a Parent Click
+
+Requirements
+
+Create:
+  <div class="card">
+    <button>Delete</button>
+  </div>
+
+Clicking the card should log:
+  "Card clicked"
+
+Clicking the button should log:
+  "Delete clicked"
+
+Prevent the card click when the button is clicked.
+  Expected Learning
+  event.stopPropagation()
