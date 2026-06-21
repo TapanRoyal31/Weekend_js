@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #212121;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    div{
+        margin-top: 20px;
+        height: 20px;
+        width: 100%;
+        background-color: chocolate;
+        color: black;
+    }
+</style>
+<body>
+    <form action="welcome.html" id="myForm">
+        <label for="username">Username :</label>
+        <input type="text" name="" id="username">
+        <br>
+        <div id="box"></div>
+    </form>
+</body>
+<script>
+    let input = document.getElementById('username');
+    let box = document.getElementById('box');
+    let form = document.getElementById('myForm');
+
+    // input.addEventListener('input',(e) => {
+    //     // console.log(e.target.value);
+    //     box.innerText = e.target.value;
+    //     e.preventDefault();
+
+    // form.addEventListener('submit',(e)=>{
+    //     e.preventDefault();
+    //     console.log("prevent default");
+    // })
+
+    input.addEventListener('focus',() => {
+        input.style.background = "chocolate";
+    })
+
+    input.addEventListener('blur',() => {
+        input.style.background = "#fff";
+    })
+    
+</script>
+</html>
